@@ -1,0 +1,9 @@
+Flags: X - disabled, R - radius, D - dynamic, B - blocked 
+ #   ADDRESS            MAC-ADDRESS       HOS... SERVER    RAT... STATUS 
+ 0 D 10.20.20.254       74:E5:F9:86:88:37 DES... dhcp1            bound  
+ 1 D 10.20.20.226       66:EF:09:7F:F4:26        dhcp1            bound  
+ 2 D 10.20.20.251       B4:6B:FC:ED:7A:E2 Opt... dhcp1            bound  
+ 3 D 10.20.20.210       1C:4D:70:44:8A:54 CHR... dhcp1            bound  
+ 4 D 10.20.20.238       00:BE:3B:DF:6B:DB HUA... dhcp1            bound  
+ 5 D 10.20.20.220       88:B1:11:A2:2C:95 DES... dhcp1            bound  
+

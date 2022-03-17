@@ -1,0 +1,11 @@
+Flags: X - disabled, A - active, D - dynamic, 
+C - connect, S - static, r - rip, b - bgp, o - ospf, m - mme, 
+B - blackhole, U - unreachable, P - prohibit 
+ #      DST-ADDRESS        PREF-SRC        GATEWAY            DISTANCE
+ 0 A S  0.0.0.0/0                          192.168.80.1              1
+ 1   S  0.0.0.0/0                          102.223.209.33            1
+ 2 ADC  10.20.20.0/24      10.20.20.1      All-LAN                   0
+ 3 ADC  102.223.209.32/27  102.223.209.51  All-WAN                   0
+ 4 ADC  192.168.0.0/24     192.168.0.37    PUBLIC                    0
+ 5 ADC  192.168.80.0/24    192.168.80.27   All-WAN                   0
+
