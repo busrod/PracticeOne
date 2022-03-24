@@ -4,10 +4,10 @@ from jinja2 import Environment, FileSystemLoader
 loader = FileSystemLoader('templates')
 
 # Create an environment
-environment = Environment(loader=loader)
+environment = Environment(loader=FileSystemLoader('.'))
 
 # Obtaining our template
-tpl = environment.get_template("file.txt")
+tpl = environment.get_template("first.conf.tpl")
 
 # Rendering our template
 out = tpl.render()

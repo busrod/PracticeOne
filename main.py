@@ -3,11 +3,11 @@ import time
 from paramiko.client import SSHClient, AutoAddPolicy
 import getpass
 
-SSH_PASSWORD = 'oliversoft'
+SSH_PASSWORD = 'callcenter@47'
 SSH_USER = 'admin'
 
-SSH_PORT = 2222
-SSH_HOST = '192.168.80.27'
+SSH_PORT = 22
+SSH_HOST = '102.223.210.47'
 
 client = SSHClient()
 

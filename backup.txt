@@ -1,9 +1,140 @@
 Flags: X - disabled, R - radius, D - dynamic, B - blocked 
  #   ADDRESS            MAC-ADDRESS       HOS... SERVER    RAT... STATUS 
- 0 D 10.20.20.254       74:E5:F9:86:88:37 DES... dhcp1            bound  
- 1 D 10.20.20.226       66:EF:09:7F:F4:26        dhcp1            bound  
- 2 D 10.20.20.251       B4:6B:FC:ED:7A:E2 Opt... dhcp1            bound  
- 3 D 10.20.20.210       1C:4D:70:44:8A:54 CHR... dhcp1            bound  
- 4 D 10.20.20.238       00:BE:3B:DF:6B:DB HUA... dhcp1            bound  
- 5 D 10.20.20.220       88:B1:11:A2:2C:95 DES... dhcp1            bound  
+ 0 D 10.0.0.44          74:83:C2:86:AC:6C CAL... dhcp1            bound  
+ 1 D 10.0.0.54          5C:BA:EF:4B:EE:E1 DES... dhcp1            bound  
+ 2 D 10.0.0.53          5C:BA:EF:4C:9F:D9 DES... dhcp1            bound  
+ 3 D 10.0.0.55          5C:BA:EF:4B:EC:CF DES... dhcp1            bound  
+ 4 D 10.0.0.15          1E:BA:CE:15:72:2E Arm... dhcp1            bound  
+ 5 D 10.0.0.52          5C:BA:EF:4D:45:6D DES... dhcp1            bound  
+ 6 D 10.0.0.13          C8:B2:9B:8D:75:0C DES... dhcp1            bound  
+ 7 D 10.0.0.8           4A:04:2B:49:55:51        dhcp1            bound  
+ 8 D 10.0.0.20          9A:93:AE:95:2A:1A        dhcp1            bound  
+ 9 D 10.0.0.23          20:26:81:A9:72:75        dhcp1            bound  
+10 D 10.0.0.28          5C:BA:EF:4D:04:4F DES... dhcp1            bound  
+11 D 10.0.0.29          E0:2B:E9:4C:4E:56 DES... dhcp1            bound  
+12 D 10.0.0.38          D0:37:45:3D:07:86 BBO... dhcp1            bound  
+13 D 10.0.0.39          C8:B2:9B:8E:57:1A DES... dhcp1            bound  
+14 D 10.0.0.65          DC:F5:05:7A:75:EF CAL... dhcp1            bound  
+15 D 10.0.0.41          A4:97:B1:18:92:05 DES... dhcp1            bound  
+16 D 10.0.0.46          5C:BA:EF:4C:9D:AF DES... dhcp1            bound  
+17 D 10.0.0.56          C8:21:58:0D:A2:A5 DES... dhcp1            bound  
+18 D 10.0.0.57          EA:90:DB:7F:AF:C6        dhcp1            bound  
+19 D 10.0.0.59          6E:E7:DA:E0:27:FA Odile  dhcp1            bound  
+20 D 10.0.0.69          16:CB:09:B2:0F:BA        dhcp1            bound  
+21 D 10.0.0.12          C8:B2:9B:8D:92:99 DES... dhcp1            bound  
+22 D 10.0.0.11          52:A2:88:0C:69:2C        dhcp1            bound  
+23 D 10.0.0.21          A4:97:B1:19:14:ED DES... dhcp1            bound  
+24 D 10.0.0.70          5E:73:32:AF:FF:7A        dhcp1            bound  
+25 D 10.0.0.82          02:CD:A7:5D:3F:72        dhcp1            bound  
+26 D 10.0.0.84          1A:DB:9D:E6:80:6C        dhcp1            bound  
+27 D 10.0.0.6           D8:1D:72:E7:7C:A9 Nathan dhcp1            bound  
+28 D 10.0.0.92          2E:96:1D:51:75:DB Oli... dhcp1            bound  
+29 B ;;; iPhone
+                        E6:B7:A9:D7:2F:9E        dhcp1            waiting
+30 B ;;; Galaxy-A20
+                        A2:01:89:3C:EA:C5        dhcp1            waiting
+31 B ;;; Galaxy-S8
+                        B0:72:BF:F5:46:75        dhcp1            waiting
+32 B ;;; Galaxy-A20s
+                        E6:E4:D9:40:D1:61        dhcp1            waiting
+33 B ;;; Galaxy-J3-Prime
+                        14:56:8E:B1:08:2C        dhcp1            waiting
+34 B ;;; Galaxy-A71-de-Christian
+                        22:B7:E0:73:2D:2E        dhcp1            waiting
+35 B ;;; Galaxy-J7-2016
+                        48:27:EA:6E:7D:07        dhcp1            waiting
+36 B ;;; Galaxy-A7-2018-de-LL
+                        A2:46:30:24:29:47        dhcp1            waiting
+37 B ;;; A30s-de-Gratien-Mango
+                        DA:61:E5:F6:BF:07        dhcp1            waiting
+38 B ;;; iPhone-de-Yan
+                        18:F6:43:0F:8B:CC        dhcp1            waiting
+39 B ;;; IphonedJonathan
+                        B6:DC:7D:C9:C7:D2        dhcp1            waiting
+40 B ;;; Iphone-XXXXXX
+                        2A:89:4E:15:BB:80        dhcp1            waiting
+41 B ;;; android-3d98e9efecb7d073
+                        F0:3D:03:7C:8E:87        dhcp1            waiting
+42 B ;;; iPhone-Daniel
+                        60:A3:7D:75:EB:C8        dhcp1            waiting
+43 B ;;; android-c351386f7ba65d3e
+                        F0:3D:03:E6:D4:3D        dhcp1            waiting
+44 B ;;; android-a370ccb6ffeaedf1
+                        88:1C:95:AE:12:2A        dhcp1            waiting
+45 B ;;; android-20165d76780e8e01
+                        48:0B:B2:B7:F9:53        dhcp1            waiting
+46 B ;;; iPhone
+                        3A:EA:C5:09:10:EB        dhcp1            waiting
+47 D 10.0.0.18          70:66:55:84:56:AB LAP... dhcp1            bound  
+48 B ;;; iPhone
+                        F8:2D:7C:25:62:62        dhcp1            waiting
+49 D 10.0.0.42          E2:05:85:8F:BD:C5        dhcp1            bound  
+50 D 10.0.0.37          E0:9D:31:D9:DF:A5 CAL... dhcp1            bound  
+51 D 10.0.0.60          E8:9E:B4:35:1A:F1 DES... dhcp1            bound  
+52 D 10.0.0.35          B0:68:E6:2E:1B:D1 DES... dhcp1            bound  
+53 D 10.0.0.24          DC:F5:05:82:73:11 DES... dhcp1            bound  
+54 D 10.0.0.9           FE:38:90:80:BB:D4        dhcp1            bound  
+55 D 10.0.0.45          5C:BA:EF:4C:C0:09 DES... dhcp1            bound  
+56 D 10.0.0.16          5C:BA:EF:4C:9C:7F DES... dhcp1            bound  
+57 B ;;; Galaxy-S6-edge
+                        EC:1F:72:8D:9E:78        dhcp1            waiting
+58 D 10.0.0.94          A4:B1:C1:A0:82:E6 DES... dhcp1            bound  
+59 D 10.0.0.22          EA:1F:4F:CE:E4:19        dhcp1            bound  
+60 D 10.0.0.4           E2:25:50:F4:9D:CC        dhcp1            bound  
+61 D 10.0.0.76          28:C6:3F:98:8A:3C CAL... dhcp1            bound  
+62 D 10.0.0.32          5C:BA:EF:4B:ED:35 DES... dhcp1            bound  
+63 D 10.0.0.2           F4:D1:08:29:82:3B CAL... dhcp1            bound  
+64 D 10.0.0.7           90:32:4B:73:0C:17 DES... dhcp1            bound  
+65 D 10.0.0.14          E2:7B:5F:01:95:AF        dhcp1            bound  
+66 D 10.0.0.17          40:74:E0:C8:8A:CF DES... dhcp1            bound  
+67 D 10.0.0.19          98:01:A7:AE:02:23 Mac... dhcp1            bound  
+68 D 10.0.0.25          DE:D8:C1:09:27:49        dhcp1            bound  
+69 B ;;; Galaxy-Tab-A-de-Merveil
+                        E2:D1:E3:3C:CC:72        dhcp1            waiting
+70 D 10.0.0.5           F2:52:D9:E1:E4:48        dhcp1            bound  
+71 D 10.0.0.26          82:6B:6D:98:FD:DB        dhcp1            bound  
+72 D 10.0.0.27          1E:B3:8A:26:DE:E3        dhcp1            bound  
+73 D 10.0.0.102         5C:E0:C5:13:5D:85 daniel dhcp1            bound  
+74 D 10.0.0.40          12:F4:22:4D:FD:C7        dhcp1            bound  
+75 D 10.0.0.31          C6:A3:23:2F:95:48 Bbo... dhcp1            bound  
+76 D 10.0.0.48          C6:97:32:54:34:37        dhcp1            bound  
+77 D 10.0.0.30          5A:60:F3:73:7D:77        dhcp1            bound  
+78 D 10.0.0.49          D0:C5:F3:03:D3:C8 Milka  dhcp1            bound  
+79 D 10.0.0.34          A0:CC:2B:86:D5:EA Ash    dhcp1            bound  
+80 D 10.0.0.36          CC:D9:AC:51:FF:59 BBO... dhcp1            bound  
+81 D 10.0.0.50          5C:BA:EF:24:86:4D DES... dhcp1            bound  
+82 D 10.0.0.61          5E:74:BB:CD:79:3E        dhcp1            bound  
+83 D 10.0.0.80          9C:DA:3E:C9:AE:DC APP... dhcp1            bound  
+84 D 10.0.0.64          74:D8:3E:4C:CC:D2 BBO... dhcp1            bound  
+85 D 10.0.0.67          1C:02:19:74:F5:DB OPP... dhcp1            bound  
+86 D 10.0.0.72          70:9F:A9:7F:B9:E6        dhcp1            bound  
+87 D 10.0.0.73          D0:53:49:B0:57:F6 DES... dhcp1            bound  
+88 D 10.0.0.74          82:8A:2F:D1:E7:70        dhcp1            bound  
+89 B ;;; android-4f99e93a17bc5363
+                        04:D3:20:81:47:5E        dhcp1            waiting
+90 D 10.0.0.58          92:8C:0A:31:E4:0C        dhcp1            bound  
+91 D 10.0.0.75          D2:73:11:0D:F7:3B        dhcp1            bound  
+92 B ;;; Galaxy-Note8
+                        B8:D7:AF:77:45:BB        dhcp1            waiting
+93 D 10.0.0.79          5C:61:99:69:27:F7 BBO... dhcp1            bound  
+94 D 10.0.0.81          10:0B:A9:36:29:D8 DES... dhcp1            bound  
+95 D 10.0.0.51          44:01:BB:8D:4D:44 DES... dhcp1            bound  
+96 D 10.0.0.83          B8:08:CF:F6:A2:2A NADINE dhcp1            bound  
+97 D 10.0.0.85          EC:2E:98:2E:8B:AF BBO... dhcp1            bound  
+98 D 10.0.0.86          4A:AF:FB:D0:C9:86        dhcp1            bound  
+99 D 10.0.0.87          7C:2A:31:0D:B2:0E Oli... dhcp1            bound  
+100 D 10.0.0.88          08:ED:9D:7E:8B:69        dhcp1            bound  
+101 D 10.0.0.89          18:56:80:D3:AF:C7 DES... dhcp1            bound  
+102 D 10.0.0.90          8A:4E:41:F0:8C:AB        dhcp1            bound  
+103 D 10.0.0.99          F4:D1:08:27:71:BC DES... dhcp1            bound  
+104 D 10.0.0.91          70:66:55:84:56:B9 BBO... dhcp1            bound  
+105 D 10.0.0.93          36:F7:41:44:03:1C TEC... dhcp1            bound  
+106 D 10.0.0.47          98:AF:65:38:FF:D6 BBO... dhcp1            bound  
+107 D 10.0.0.95          1C:1B:B5:58:B7:CC DES... dhcp1            bound  
+108 D 10.0.0.96          A0:CC:2B:AA:42:F6 Sam... dhcp1            bound  
+109 D 10.0.0.78          68:EC:C5:A4:73:33 BBO... dhcp1            bound  
+110 D 10.0.0.10          28:CD:C4:F1:E2:F9 BBO... dhcp1            bound  
+111 D 10.0.0.71          B8:08:CF:BF:D9:F2 HQ-6   dhcp1            bound  
+112 D 10.0.0.43          5C:BA:EF:4B:F1:77 DES... dhcp1            bound  
+113 D 10.0.0.68          B8:08:CF:F6:B5:8A CAL... dhcp1            bound  
 
